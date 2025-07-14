@@ -710,11 +710,17 @@ body {
   background-repeat: no-repeat;
   background-position: center center;
 }
+
 .logo {
-  background-image: url(../img/svg/Logo.svg);
+  background-image: url(../img/BannerNavbar.png) !important;
   width: 49px;
   height: 49px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
 }
+
 .menu-toggle {
   background-image: url(../img/svg/Bulk/Menu-toggle-white.svg);
   width: 24px;

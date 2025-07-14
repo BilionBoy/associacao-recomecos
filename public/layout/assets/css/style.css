@@ -1038,9 +1038,13 @@ body {
 }
 
 .logo {
-  background-image: url(../img/svg/Logo.svg);
-  width: 49px;
+  background-image: url(../img/BannerNavbar.png);
+  width: 160px; /* ou o tamanho desejado */
   height: 49px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
 }
 
 .menu-toggle {
