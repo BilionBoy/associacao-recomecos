@@ -18109,3 +18109,498 @@ Processing by HomeController#index as HTML
 Completed 200 OK in 17ms (Views: 16.7ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 10.8ms)
 
 
+  [1m[36mActiveRecord::SchemaMigration Load (1.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for 127.0.0.1 at 2025-07-13 22:55:00 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.3ms | GC: 0.0ms)
+  Rendered shared/_navbar.html.erb (Duration: 0.9ms | GC: 0.0ms)
+  Rendered shared/sidebar/_sidebar.html.erb (Duration: 0.2ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 65.6ms | GC: 14.1ms)
+Completed 200 OK in 86ms (Views: 68.0ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 14.6ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2025-07-13 22:55:01 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+Started GET "/" for 127.0.0.1 at 2025-07-13 22:59:13 -0400
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.3ms | GC: 0.0ms)
+  Rendered shared/_navbar.html.erb (Duration: 0.7ms | GC: 0.0ms)
+  Rendered shared/sidebar/_sidebar.html.erb (Duration: 0.2ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 4.7ms | GC: 0.1ms)
+Completed 200 OK in 7ms (Views: 5.9ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.1ms)
+
+
+Started GET "/layout/assets/fonts/inter/inter.css" for 127.0.0.1 at 2025-07-13 22:59:13 -0400
+Started GET "/layout/assets/icons/phosphor/styles.min.css" for 127.0.0.1 at 2025-07-13 22:59:13 -0400
+Started GET "/layout/assets/css/animate.min.css" for 127.0.0.1 at 2025-07-13 22:59:13 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/layout/assets/fonts/inter/inter.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/layout/assets/icons/phosphor/styles.min.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/layout/assets/css/animate.min.css"):
+  
+Started GET "/layout/assets/js/jquery/jquery.maskMoney.min.js" for 127.0.0.1 at 2025-07-13 22:59:13 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/layout/assets/js/jquery/jquery.maskMoney.min.js"):
+  
+Started GET "/layout/assets/css/all.min.css" for 127.0.0.1 at 2025-07-13 22:59:13 -0400
+Started GET "/layout/assets/js/jquery/jquery.mask.min.js" for 127.0.0.1 at 2025-07-13 22:59:13 -0400
+Started GET "/layout/assets/js/vendor/forms/selects/select2.min.js" for 127.0.0.1 at 2025-07-13 22:59:13 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/layout/assets/css/all.min.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/layout/assets/js/jquery/jquery.mask.min.js"):
+  
+Started GET "/layout/assets/js/vendor/forms/wizards/steps.min.js" for 127.0.0.1 at 2025-07-13 22:59:13 -0400
+Started GET "/layout/assets/js/vendor/tables/datatables/datatables.min.js" for 127.0.0.1 at 2025-07-13 22:59:13 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/layout/assets/js/vendor/forms/selects/select2.min.js"):
+  
+Started GET "/layout/assets/js/vendor/tables/datatables/extensions/responsive.min.js" for 127.0.0.1 at 2025-07-13 22:59:13 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/layout/assets/js/vendor/forms/wizards/steps.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/layout/assets/js/vendor/tables/datatables/datatables.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/layout/assets/js/vendor/tables/datatables/extensions/responsive.min.js"):
+  
+Started GET "/layout/assets/js/jquery/jquery.min.js" for 127.0.0.1 at 2025-07-13 22:59:14 -0400
+Started GET "/layout/assets/js/bootstrap/bootstrap.bundle.min.js" for 127.0.0.1 at 2025-07-13 22:59:14 -0400
+Started GET "/layout/assets/js/vendor/notifications/sweet_alert.min.js" for 127.0.0.1 at 2025-07-13 22:59:14 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/layout/assets/js/jquery/jquery.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/layout/assets/js/bootstrap/bootstrap.bundle.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/layout/assets/js/vendor/notifications/sweet_alert.min.js"):
+  
+Started GET "/layout/assets/js/vendor/pickers/datepicker.min.js" for 127.0.0.1 at 2025-07-13 22:59:14 -0400
+Started GET "/layout/assets/js/vendor/pickers/daterangepicker.js" for 127.0.0.1 at 2025-07-13 22:59:14 -0400
+Started GET "/layout/assets/js/vendor/pickers/litepicker.js" for 127.0.0.1 at 2025-07-13 22:59:14 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/layout/assets/js/vendor/pickers/datepicker.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/layout/assets/js/vendor/pickers/daterangepicker.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/layout/assets/js/vendor/pickers/litepicker.js"):
+  
+Started GET "/layout/assets/js/app.js" for 127.0.0.1 at 2025-07-13 22:59:14 -0400
+Started GET "/layout/assets/js/custom.js" for 127.0.0.1 at 2025-07-13 22:59:14 -0400
+Started GET "/layout/assets/js/vendor/visualization/echarts/echarts.min.js" for 127.0.0.1 at 2025-07-13 22:59:14 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/layout/assets/js/app.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/layout/assets/js/custom.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/layout/assets/js/vendor/visualization/echarts/echarts.min.js"):
+  
+Started GET "/layout/assets/js/vendor/notifications/noty.min.js" for 127.0.0.1 at 2025-07-13 22:59:14 -0400
+Started GET "/layout/assets/js/vendor/forms/selects/bootstrap_multiselect.js" for 127.0.0.1 at 2025-07-13 22:59:14 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/layout/assets/js/vendor/forms/selects/bootstrap_multiselect.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/layout/assets/js/vendor/notifications/noty.min.js"):
+  
+Started GET "/layout/assets/js/vendor/tables/datatables/extensions/fixed_columns.min.js" for 127.0.0.1 at 2025-07-13 22:59:14 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/layout/assets/js/vendor/tables/datatables/extensions/fixed_columns.min.js"):
+  
+Started GET "/layout/assets/img/Team.png" for 127.0.0.1 at 2025-07-13 22:59:14 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/layout/assets/img/Team.png"):
+  
+Started GET "/layout/assets/img/template.png" for 127.0.0.1 at 2025-07-13 22:59:14 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/layout/assets/img/template.png"):
+  
+Started GET "/" for 127.0.0.1 at 2025-07-13 22:59:46 -0400
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered shared/_navbar.html.erb (Duration: 0.4ms | GC: 0.0ms)
+  Rendered shared/sidebar/_sidebar.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 3.7ms | GC: 0.0ms)
+Completed 200 OK in 4ms (Views: 3.9ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/layout/assets/fonts/inter/inter.css" for 127.0.0.1 at 2025-07-13 22:59:46 -0400
+Started GET "/layout/assets/icons/phosphor/styles.min.css" for 127.0.0.1 at 2025-07-13 22:59:46 -0400
+Started GET "/layout/assets/css/all.min.css" for 127.0.0.1 at 2025-07-13 22:59:46 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/layout/assets/fonts/inter/inter.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/layout/assets/css/all.min.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/layout/assets/icons/phosphor/styles.min.css"):
+  
+Started GET "/layout/assets/js/jquery/jquery.maskMoney.min.js" for 127.0.0.1 at 2025-07-13 22:59:46 -0400
+Started GET "/layout/assets/js/bootstrap/bootstrap.bundle.min.js" for 127.0.0.1 at 2025-07-13 22:59:46 -0400
+Started GET "/layout/assets/js/vendor/notifications/sweet_alert.min.js" for 127.0.0.1 at 2025-07-13 22:59:46 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/layout/assets/js/jquery/jquery.maskMoney.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/layout/assets/js/bootstrap/bootstrap.bundle.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/layout/assets/js/vendor/notifications/sweet_alert.min.js"):
+  
+Started GET "/layout/assets/js/vendor/forms/selects/select2.min.js" for 127.0.0.1 at 2025-07-13 22:59:46 -0400
+Started GET "/layout/assets/js/vendor/forms/wizards/steps.min.js" for 127.0.0.1 at 2025-07-13 22:59:46 -0400
+Started GET "/layout/assets/js/vendor/tables/datatables/datatables.min.js" for 127.0.0.1 at 2025-07-13 22:59:46 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/layout/assets/js/vendor/forms/selects/select2.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/layout/assets/js/vendor/forms/wizards/steps.min.js"):
+  
+Started GET "/layout/assets/js/vendor/tables/datatables/extensions/responsive.min.js" for 127.0.0.1 at 2025-07-13 22:59:47 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/layout/assets/js/vendor/tables/datatables/datatables.min.js"):
+  
+Started GET "/layout/assets/js/vendor/pickers/datepicker.min.js" for 127.0.0.1 at 2025-07-13 22:59:47 -0400
+Started GET "/layout/assets/js/vendor/pickers/daterangepicker.js" for 127.0.0.1 at 2025-07-13 22:59:47 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/layout/assets/js/vendor/tables/datatables/extensions/responsive.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/layout/assets/js/vendor/pickers/datepicker.min.js"):
+  
+Started GET "/layout/assets/js/app.js" for 127.0.0.1 at 2025-07-13 22:59:47 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/layout/assets/js/vendor/pickers/daterangepicker.js"):
+  
+Started GET "/layout/assets/js/custom.js" for 127.0.0.1 at 2025-07-13 22:59:47 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/layout/assets/js/app.js"):
+  
+Started GET "/layout/assets/js/vendor/notifications/noty.min.js" for 127.0.0.1 at 2025-07-13 22:59:47 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/layout/assets/js/custom.js"):
+  
+Started GET "/layout/assets/js/vendor/pickers/litepicker.js" for 127.0.0.1 at 2025-07-13 22:59:47 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/layout/assets/js/vendor/notifications/noty.min.js"):
+  
+Started GET "/layout/assets/js/vendor/forms/selects/bootstrap_multiselect.js" for 127.0.0.1 at 2025-07-13 22:59:47 -0400
+Started GET "/layout/assets/js/vendor/tables/datatables/extensions/fixed_columns.min.js" for 127.0.0.1 at 2025-07-13 22:59:47 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/layout/assets/js/vendor/pickers/litepicker.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/layout/assets/js/vendor/forms/selects/bootstrap_multiselect.js"):
+  
+Started GET "/layout/assets/js/vendor/visualization/echarts/echarts.min.js" for 127.0.0.1 at 2025-07-13 22:59:47 -0400
+Started GET "/layout/assets/img/Team.png" for 127.0.0.1 at 2025-07-13 22:59:47 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/layout/assets/js/vendor/tables/datatables/extensions/fixed_columns.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/layout/assets/js/vendor/visualization/echarts/echarts.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/layout/assets/img/Team.png"):
+  
+Started GET "/layout/assets/img/template.png" for 127.0.0.1 at 2025-07-13 22:59:47 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/layout/assets/img/template.png"):
+  
+Started GET "/layout/assets/js/jquery/jquery.min.js" for 127.0.0.1 at 2025-07-13 22:59:47 -0400
+Started GET "/layout/assets/css/animate.min.css" for 127.0.0.1 at 2025-07-13 22:59:47 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/layout/assets/js/jquery/jquery.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/layout/assets/css/animate.min.css"):
+  
+Started GET "/layout/assets/js/jquery/jquery.mask.min.js" for 127.0.0.1 at 2025-07-13 22:59:47 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/layout/assets/js/jquery/jquery.mask.min.js"):
+  
+Started GET "/" for 127.0.0.1 at 2025-07-13 22:59:48 -0400
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered shared/_navbar.html.erb (Duration: 0.4ms | GC: 0.0ms)
+  Rendered shared/sidebar/_sidebar.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 3.7ms | GC: 0.2ms)
+Completed 200 OK in 4ms (Views: 3.9ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.2ms)
+
+
+Started GET "/layout/assets/fonts/inter/inter.css" for 127.0.0.1 at 2025-07-13 22:59:48 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/layout/assets/fonts/inter/inter.css"):
+  
+Started GET "/layout/assets/icons/phosphor/styles.min.css" for 127.0.0.1 at 2025-07-13 22:59:48 -0400
+Started GET "/layout/assets/js/jquery/jquery.mask.min.js" for 127.0.0.1 at 2025-07-13 22:59:48 -0400
+Started GET "/layout/assets/js/jquery/jquery.maskMoney.min.js" for 127.0.0.1 at 2025-07-13 22:59:48 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/layout/assets/icons/phosphor/styles.min.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/layout/assets/js/jquery/jquery.mask.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/layout/assets/js/jquery/jquery.maskMoney.min.js"):
+  
+Started GET "/layout/assets/js/jquery/jquery.min.js" for 127.0.0.1 at 2025-07-13 22:59:48 -0400
+Started GET "/layout/assets/js/vendor/notifications/sweet_alert.min.js" for 127.0.0.1 at 2025-07-13 22:59:48 -0400
+Started GET "/layout/assets/js/vendor/forms/selects/select2.min.js" for 127.0.0.1 at 2025-07-13 22:59:48 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/layout/assets/js/jquery/jquery.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/layout/assets/js/vendor/notifications/sweet_alert.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/layout/assets/js/vendor/forms/selects/select2.min.js"):
+  
+Started GET "/layout/assets/js/vendor/forms/wizards/steps.min.js" for 127.0.0.1 at 2025-07-13 22:59:48 -0400
+Started GET "/layout/assets/js/vendor/tables/datatables/datatables.min.js" for 127.0.0.1 at 2025-07-13 22:59:48 -0400
+Started GET "/layout/assets/js/vendor/tables/datatables/extensions/responsive.min.js" for 127.0.0.1 at 2025-07-13 22:59:49 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/layout/assets/js/vendor/tables/datatables/datatables.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/layout/assets/js/vendor/forms/wizards/steps.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/layout/assets/js/vendor/tables/datatables/extensions/responsive.min.js"):
+  
+Started GET "/layout/assets/js/vendor/pickers/datepicker.min.js" for 127.0.0.1 at 2025-07-13 22:59:49 -0400
+Started GET "/layout/assets/js/vendor/pickers/daterangepicker.js" for 127.0.0.1 at 2025-07-13 22:59:49 -0400
+Started GET "/layout/assets/js/app.js" for 127.0.0.1 at 2025-07-13 22:59:49 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/layout/assets/js/vendor/pickers/daterangepicker.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/layout/assets/js/vendor/pickers/datepicker.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/layout/assets/js/app.js"):
+  
+Started GET "/layout/assets/js/custom.js" for 127.0.0.1 at 2025-07-13 22:59:49 -0400
+Started GET "/layout/assets/js/vendor/notifications/noty.min.js" for 127.0.0.1 at 2025-07-13 22:59:49 -0400
+Started GET "/layout/assets/js/vendor/pickers/litepicker.js" for 127.0.0.1 at 2025-07-13 22:59:49 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/layout/assets/js/custom.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/layout/assets/js/vendor/notifications/noty.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/layout/assets/js/vendor/pickers/litepicker.js"):
+  
+Started GET "/layout/assets/js/vendor/forms/selects/bootstrap_multiselect.js" for 127.0.0.1 at 2025-07-13 22:59:49 -0400
+Started GET "/layout/assets/js/vendor/tables/datatables/extensions/fixed_columns.min.js" for 127.0.0.1 at 2025-07-13 22:59:49 -0400
+Started GET "/layout/assets/js/vendor/visualization/echarts/echarts.min.js" for 127.0.0.1 at 2025-07-13 22:59:49 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/layout/assets/js/vendor/tables/datatables/extensions/fixed_columns.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/layout/assets/js/vendor/forms/selects/bootstrap_multiselect.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/layout/assets/js/vendor/visualization/echarts/echarts.min.js"):
+  
+Started GET "/layout/assets/img/Team.png" for 127.0.0.1 at 2025-07-13 22:59:49 -0400
+Started GET "/layout/assets/img/template.png" for 127.0.0.1 at 2025-07-13 22:59:49 -0400
+Started GET "/" for 127.0.0.1 at 2025-07-13 22:59:49 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/layout/assets/img/Team.png"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/layout/assets/img/template.png"):
+  
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.3ms | GC: 0.0ms)
+Started GET "/layout/assets/css/animate.min.css" for 127.0.0.1 at 2025-07-13 22:59:49 -0400
+Started GET "/layout/assets/css/all.min.css" for 127.0.0.1 at 2025-07-13 22:59:49 -0400
+  Rendered shared/_navbar.html.erb (Duration: 0.3ms | GC: 0.0ms)
+  Rendered shared/sidebar/_sidebar.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 4.8ms | GC: 0.5ms)
+Completed 200 OK in 5ms (Views: 5.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.5ms)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/layout/assets/css/animate.min.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/layout/assets/css/all.min.css"):
+  
+Started GET "/layout/assets/fonts/inter/inter.css" for 127.0.0.1 at 2025-07-13 22:59:49 -0400
+Started GET "/layout/assets/icons/phosphor/styles.min.css" for 127.0.0.1 at 2025-07-13 22:59:49 -0400
+Started GET "/layout/assets/css/all.min.css" for 127.0.0.1 at 2025-07-13 22:59:49 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/layout/assets/fonts/inter/inter.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/layout/assets/icons/phosphor/styles.min.css"):
+  
+Started GET "/layout/assets/css/animate.min.css" for 127.0.0.1 at 2025-07-13 22:59:49 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/layout/assets/css/all.min.css"):
+  
+Started GET "/layout/assets/js/jquery/jquery.min.js" for 127.0.0.1 at 2025-07-13 22:59:50 -0400
+Started GET "/layout/assets/js/jquery/jquery.mask.min.js" for 127.0.0.1 at 2025-07-13 22:59:50 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/layout/assets/css/animate.min.css"):
+  
+Started GET "/layout/assets/js/vendor/forms/selects/select2.min.js" for 127.0.0.1 at 2025-07-13 22:59:50 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/layout/assets/js/jquery/jquery.mask.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/layout/assets/js/jquery/jquery.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/layout/assets/js/vendor/forms/selects/select2.min.js"):
+  
+Started GET "/layout/assets/js/vendor/forms/wizards/steps.min.js" for 127.0.0.1 at 2025-07-13 22:59:50 -0400
+Started GET "/layout/assets/js/vendor/tables/datatables/datatables.min.js" for 127.0.0.1 at 2025-07-13 22:59:50 -0400
+Started GET "/layout/assets/js/vendor/tables/datatables/extensions/responsive.min.js" for 127.0.0.1 at 2025-07-13 22:59:50 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/layout/assets/js/vendor/forms/wizards/steps.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/layout/assets/js/vendor/tables/datatables/datatables.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/layout/assets/js/vendor/tables/datatables/extensions/responsive.min.js"):
+  
+Started GET "/layout/assets/js/vendor/pickers/datepicker.min.js" for 127.0.0.1 at 2025-07-13 22:59:50 -0400
+Started GET "/layout/assets/js/vendor/pickers/daterangepicker.js" for 127.0.0.1 at 2025-07-13 22:59:50 -0400
+Started GET "/layout/assets/js/app.js" for 127.0.0.1 at 2025-07-13 22:59:50 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/layout/assets/js/vendor/pickers/daterangepicker.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/layout/assets/js/vendor/pickers/datepicker.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/layout/assets/js/app.js"):
+  
+Started GET "/layout/assets/js/custom.js" for 127.0.0.1 at 2025-07-13 22:59:50 -0400
+Started GET "/layout/assets/js/vendor/notifications/noty.min.js" for 127.0.0.1 at 2025-07-13 22:59:50 -0400
+Started GET "/layout/assets/js/vendor/pickers/litepicker.js" for 127.0.0.1 at 2025-07-13 22:59:50 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/layout/assets/js/custom.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/layout/assets/js/vendor/notifications/noty.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/layout/assets/js/vendor/pickers/litepicker.js"):
+  
+Started GET "/layout/assets/js/vendor/forms/selects/bootstrap_multiselect.js" for 127.0.0.1 at 2025-07-13 22:59:50 -0400
+Started GET "/layout/assets/js/vendor/tables/datatables/extensions/fixed_columns.min.js" for 127.0.0.1 at 2025-07-13 22:59:50 -0400
+Started GET "/layout/assets/js/vendor/visualization/echarts/echarts.min.js" for 127.0.0.1 at 2025-07-13 22:59:50 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/layout/assets/js/vendor/forms/selects/bootstrap_multiselect.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/layout/assets/js/vendor/tables/datatables/extensions/fixed_columns.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/layout/assets/js/vendor/visualization/echarts/echarts.min.js"):
+  
+Started GET "/layout/assets/img/Team.png" for 127.0.0.1 at 2025-07-13 22:59:50 -0400
+Started GET "/layout/assets/img/template.png" for 127.0.0.1 at 2025-07-13 22:59:50 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/layout/assets/img/Team.png"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/layout/assets/img/template.png"):
+  
+Started GET "/layout/assets/js/jquery/jquery.maskMoney.min.js" for 127.0.0.1 at 2025-07-13 22:59:50 -0400
+Started GET "/layout/assets/js/bootstrap/bootstrap.bundle.min.js" for 127.0.0.1 at 2025-07-13 22:59:50 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/layout/assets/js/bootstrap/bootstrap.bundle.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/layout/assets/js/jquery/jquery.maskMoney.min.js"):
+  
+Started GET "/layout/assets/js/vendor/notifications/sweet_alert.min.js" for 127.0.0.1 at 2025-07-13 22:59:51 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/layout/assets/js/vendor/notifications/sweet_alert.min.js"):
+  
+Started GET "/" for 127.0.0.1 at 2025-07-13 23:01:43 -0400
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | GC: 0.0ms)
+  Rendered shared/_navbar.html.erb (Duration: 0.7ms | GC: 0.0ms)
+  Rendered shared/sidebar/_sidebar.html.erb (Duration: 0.2ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 5.2ms | GC: 0.2ms)
+Completed 200 OK in 7ms (Views: 5.9ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.2ms)
+
+
+Started GET "/layout/assets/fonts/stytesheet.css" for 127.0.0.1 at 2025-07-13 23:01:43 -0400
+Started GET "/layout/assets/js/jquery/jquery.min.js" for 127.0.0.1 at 2025-07-13 23:01:43 -0400
+Started GET "/layout/assets/img/Team.png" for 127.0.0.1 at 2025-07-13 23:01:43 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/layout/assets/fonts/stytesheet.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/layout/assets/js/jquery/jquery.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/layout/assets/img/Team.png"):
+  
+Started GET "/layout/assets/img/template.png" for 127.0.0.1 at 2025-07-13 23:01:44 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/layout/assets/img/template.png"):
+  
+Started GET "/" for 127.0.0.1 at 2025-07-13 23:02:05 -0400
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | GC: 0.0ms)
+  Rendered shared/_navbar.html.erb (Duration: 0.7ms | GC: 0.0ms)
+  Rendered shared/sidebar/_sidebar.html.erb (Duration: 0.3ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 3.1ms | GC: 0.0ms)
+Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/layout/assets/fonts/stytesheet.css" for 127.0.0.1 at 2025-07-13 23:02:05 -0400
+Started GET "/layout/assets/js/scriptjs.js" for 127.0.0.1 at 2025-07-13 23:02:05 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/layout/assets/fonts/stytesheet.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/layout/assets/js/scriptjs.js"):
+  
+Started GET "/layout/assets/img/template.png" for 127.0.0.1 at 2025-07-13 23:02:06 -0400
+Started GET "/layout/assets/img/Team.png" for 127.0.0.1 at 2025-07-13 23:02:06 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/layout/assets/img/template.png"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/layout/assets/img/Team.png"):
+  
