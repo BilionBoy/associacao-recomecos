@@ -16,15 +16,16 @@
     <%= javascript_include_tag "/layout/assets/js/script.js",              "data-turbo-track": "reload" %>
   </head>
   <body class="">
-    <!-- Main navbar -->
     <div class="page-flex">
-      <%= render "shared/sidebar" %>
+      <%= render partial: "shared/sidebar" %>
       <div class="main-wrapper">
-        <div class="layer"></div>
-        <%= render "shared/navbar" %>
-        <%= yield %>
+        <%= render partial: "shared/navbar" %>
+        <main class="main-content">
+          <div class="content">
+            <%= yield %>
+          </div>
+        </main>
       </div>
     </div>
-  </div>
-</body>
+  </body>
 </html>
