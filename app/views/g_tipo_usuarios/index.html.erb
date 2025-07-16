@@ -1,6 +1,37 @@
 <div class="container">
   <div class="page-title d-flex justify-content-between align-items-center mb-4">
-    <h1 class="h3 mb-0">Tipos de Usuário</h1>
-    <%= link_to "Novo Tipo", new_g_tipo_usuario_path, class: "btn btn-primary" %>
+    <h1 class=" main-title h3 mb-0">Tipos de Usuário</h1>
+    <%= link_to "Novo Tipo", new_g_tipo_usuario_path, class: "btn btn-primary main-title-button" %>
   </div>
 </div>
+<style>
+  .main-title-button {
+   font-size: 24px;
+   font-weight: 600;
+   line-height: 1.2;
+   padding: 8px 20px;
+   border-radius: 6px;
+   background-color: #2F5DAB; /* Azul institucional base */
+   color: #fff;
+   border: none;
+   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+   transition: all 0.2s ease-in-out;
+  }
+
+  /* Hover padrão (modo claro) */
+  .main-title-button:hover {
+   background-color: #244d91; /* um tom mais escuro perceptível */
+   transform: translateY(-1px);
+  }
+
+  /* Modo escuro */
+  .darkmode .main-title-button {
+   background-color: #4C7CC2;
+   color: #EFF0F6;
+  }
+
+  /* Hover no modo escuro */
+  .darkmode .main-title-button:hover {
+   background-color: #3B6DB6;
+  }
+</style>

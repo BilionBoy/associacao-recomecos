@@ -11,66 +11,12 @@
         <span class="sr-only">Alternar menu</span>
         <span class="icon menu-toggle--gray" aria-hidden="true"></span>
       </button>
-      <div class="lang-switcher-wrapper">
-        <button class="lang-switcher transparent-btn" type="button">
-          PT
-          <i data-feather="chevron-down" aria-hidden="true"></i>
-        </button>
-        <ul class="lang-menu dropdown">
-          <li><%= link_to "Português", root_path %></li>
-          <li><%= link_to "Inglês", root_path %></li>
-          <li><%= link_to "Espanhol", root_path %></li>
-        </ul>
-      </div>
+      <div class="lang-switcher-wrapper"></div>
       <button class="theme-switcher gray-circle-btn" type="button" title="Alternar tema">
         <span class="sr-only">Alternar tema</span>
         <i class="sun-icon" data-feather="sun" aria-hidden="true"></i>
         <i class="moon-icon" data-feather="moon" aria-hidden="true"></i>
       </button>
-      <div class="notification-wrapper">
-        <button class="gray-circle-btn dropdown-btn" title="Mensagens" type="button">
-          <span class="sr-only">Mensagens</span>
-          <span class="icon notification active" aria-hidden="true"></span>
-        </button>
-        <ul class="users-item-dropdown notification-dropdown dropdown">
-          <li>
-            <%= link_to root_path do %>
-              <div class="notification-dropdown-icon info">
-                <i data-feather="check"></i>
-              </div>
-              <div class="notification-dropdown-text">
-                <span class="notification-dropdown__title">Sistema atualizado</span>
-                <span class="notification-dropdown__subtitle">Sistema atualizado com sucesso.</span>
-              </div>
-            <% end %>
-          </li>
-          <li>
-            <%= link_to root_path do %>
-              <div class="notification-dropdown-icon danger">
-                <i data-feather="info" aria-hidden="true"></i>
-              </div>
-              <div class="notification-dropdown-text">
-                <span class="notification-dropdown__title">Cache cheio</span>
-                <span class="notification-dropdown__subtitle">Limpe o cache para liberar memória.</span>
-              </div>
-            <% end %>
-          </li>
-          <li>
-            <%= link_to root_path do %>
-              <div class="notification-dropdown-icon info">
-                <i data-feather="check" aria-hidden="true"></i>
-              </div>
-              <div class="notification-dropdown-text">
-                <span class="notification-dropdown__title">Novo inscrito</span>
-                <span class="notification-dropdown__subtitle">Um novo usuário se inscreveu.</span>
-              </div>
-            <% end %>
-          </li>
-          <li>
-            <%= link_to "Ver todas notificações", root_path, class: "link-to-page" %>
-          </li>
-        </ul>
-      </div>
       <div class="nav-user-wrapper">
         <button class="nav-user-btn dropdown-btn" title="Meu perfil" type="button">
           <span class="sr-only">Meu perfil</span>
